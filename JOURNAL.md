@@ -23,3 +23,33 @@ This is what I ended with and I'm pretty sure its right:
 <img width="636" alt="Screenshot 2025-06-19 at 7 51 42 PM" src="https://github.com/user-attachments/assets/14b5bb9e-8647-40ee-95f7-c8a5fd2e6623" />
 
 **Total time spent: about 7h**
+
+# June 20th: Made the PCB
+
+Now that I finished the schematic I had to assign all the footprints so that I could start on the PCB. I think I used the right footprints for everything.
+
+After that I put it into the PCB and got this:
+
+<img width="563" alt="Screenshot 2025-06-20 at 11 48 42 AM" src="https://github.com/user-attachments/assets/1854c6fb-3966-4ab4-b82d-60d57c072968" />
+
+I realized I needed to have some sort of guide to place the keys so I used the raw kayboard layout data and ai03 plate generator to generate the plate and I imported it into kicad so that I could know where to place the keys and I made the outer rectangle the edge cuts.
+
+<img width="1103" alt="Screenshot 2025-06-20 at 11 49 26 AM" src="https://github.com/user-attachments/assets/844c1d3a-9e70-4ab9-b30d-e3ebc348dc39" />
+
+So then I put the the pico in the spot I left for it and started the long process of placing all the keys. I also learned I needed to use stabilizers for longer keys like shift and the space bar so I found those and added them. After finally placing the keys and stabilizers, this is what I had:
+
+<img width="759" alt="Screenshot 2025-06-20 at 3 23 20 PM" src="https://github.com/user-attachments/assets/ff8882a4-8390-47ee-b55d-92f6d5a63b7e" />
+
+Now I had to do an equally long process of placing the diodes. There wasn't really a perfect spot for them so I put them between each key. I hope that there is enough space there for them.
+
+<img width="904" alt="Screenshot 2025-06-20 at 7 07 31 PM" src="https://github.com/user-attachments/assets/4b9f7bf8-64c6-4250-95b6-b077507a547e" />
+
+Now to finish my pcb the last thing I had to do was route everything. It took a while but I did it faster than it took me to place the keys or diodes. So now I finished the PCB and heres what I ended with:
+
+<img width="1116" alt="Screenshot 2025-06-20 at 11 45 25 PM" src="https://github.com/user-attachments/assets/18425974-32f5-4ef1-b9e2-79824083ce3c" />
+
+<img width="1044" alt="Screenshot 2025-06-20 at 8 38 59 PM" src="https://github.com/user-attachments/assets/d66e7464-26fb-4018-9f56-9021ec5a2f6c" />
+
+Overall, I didn't really do anything that was really hard today but it took a long time to place all the components and route everything.
+
+**Total time spent: about 5h**
