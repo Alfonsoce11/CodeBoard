@@ -53,3 +53,33 @@ Now to finish my pcb the last thing I had to do was route everything. It took a 
 Overall, I didn't really do anything that was really hard today but it took a long time to place all the components and route everything.
 
 **Total time spent: about 5h**
+
+# June 21st: Started the Case and the assembly on OnShape
+
+Now that I had the PCB finished, I had to start making the case. I really didn't have a perfect idea of what exactly I want it to look like so I started the case somewhat similar to how the hackpad tutorial does it. I pretty much made the bottom part of the case the size of the pcb with 1 extra millimeter of space on any side and then I added 9.5mm walls of the case. I also decided the best way to attach all the parts together would be the same way I did for my hackpad with the heat-set inserts and screws so I also put holes in it for the screws. I made the height of the bottom part of the case the same size I used for my hackpad which is 13mm. I also added a rectangle where the microcontroller will be so that I can plug it in and stuff and it doesn't look that good but I'll change it later to make it look better and closer to actual port instead of leaving such a large space open. Heres what I had: 
+
+<img width="800" alt="Screenshot 2025-06-21 at 1 06 59 AM" src="https://github.com/user-attachments/assets/e8f62cd6-fedc-4a2e-bdb0-97feebe32521" />
+
+Now I started on the plate and I used the ai03 plate generator again to get the plate and then I added 9.5mm to each side to make the plate. Then I realized that the bottom part was a little bit bigger than the plate because I added the 9.5 mm after adding 1mm to each side so I had to do the same with the plate and I fixed it. I also added a rectangle above the microcontroller so that there would be easier access to the port and also to display the micrcontroller since it looks cool. When I make the top part of the case I'll make it look better than just a rectangle. Heres the sketch I had for the plate: 
+
+<img width="1043" alt="Screenshot 2025-06-22 at 12 58 32 AM" src="https://github.com/user-attachments/assets/1abaa0cd-fd22-4736-b522-5188f5f02ca9" />
+
+And here's after I extruded it:
+
+<img width="830" alt="Screenshot 2025-06-22 at 1 00 37 AM" src="https://github.com/user-attachments/assets/91025a46-195d-4858-913f-0296023f74ea" />
+
+Then I wanted to start the main assembly so that I could make sure everything will fit together and stuff.
+
+First I made an assembly of the pcb so that I would have to assemble the pcb in the main assembly and instead I could put the pcb together seperately. I imported the pcb from KiCAD and I also imported a model of the pico and the cherry mx switches. The stabilizers and diodes got imported from kicad with the pcb so they were already assembled. I put the pico on but the buttons were gonna take forever to put them all on. I started putting them on but only after putting on like 10 keys did it occur to me that there must be a faster way to do this. So I looked it up and I found the assembly linear pattern tool that allowed me to just put one key in each row and put the distance bewteen each key and select a line that says what direction it goes in and I can automatically place all the keys in that row. So in the end it didn't end up taking that long since I found out abotu the assembly linear pattern tool. I finished the PCB assembly and here's what it looked like:
+
+<img width="1117" alt="Screenshot 2025-06-22 at 1 13 13 AM" src="https://github.com/user-attachments/assets/8d9ab229-e41a-4bda-8cb7-59772aa30fd0" />
+
+Now I started on the main assembly. I also added the screws to get an idea of how they would fit. The screws stick out right now but after I add the top part of the case I'll make it so that the screws don't stick out like that. After putting it all together I realized that the pcb is just being held up by the switches so I added a part to the bottom part of the case to hold the pcb up. It looks like this on all the edges in the case: 
+
+<img width="239" alt="Screenshot 2025-06-22 at 1 25 51 AM" src="https://github.com/user-attachments/assets/1c4768f5-db29-4de2-b778-97ef28884091" />
+
+So right now the assembly looks like this:
+
+<img width="1065" alt="Screenshot 2025-06-22 at 12 08 36 AM" src="https://github.com/user-attachments/assets/df3c6138-667a-48c4-bc9e-74637a26de2c" />
+
+**Total time spent: about 6h**
