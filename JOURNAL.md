@@ -83,3 +83,33 @@ So right now the assembly looks like this:
 <img width="1065" alt="Screenshot 2025-06-22 at 12 08 36 AM" src="https://github.com/user-attachments/assets/df3c6138-667a-48c4-bc9e-74637a26de2c" />
 
 **Total time spent: about 6h**
+
+# June 22nd: Finished the top part of the case, and the main assembly and I started the firmware
+
+I still needed to make the top part of the case. But before I did that I wanted to see how high the keycaps would be and how they would look and stuff so first I added all the keycaps to the assembly. This time I knew I could use the assembly linear pattern tool, so it didn't end up taking as much time.
+
+<img width="1141" alt="Screenshot 2025-06-22 at 10 39 10 AM" src="https://github.com/user-attachments/assets/bf95f573-35fb-4104-b538-4acc7ea938ed" />
+
+I wanted to make it high enough so that the screws didn't stick out and so that the bottom of the keycaps are the same height as the top of the case. I started on the sketch using the plate as a guide. The edges of all the parts of the case will the be the same so I just copied the edges from the plate to the sketch for the top part of the case. The top part of the case would be just an outer part to make the keyboard look complete. I also added circles at each corner for space for the screws but I wouldn't extrude it all the way up, only a little bit more than the screw so that the screw could fit but it would also would stick out and it would look better. I found the distance between the plate and the bottom of the keycaps to decide the height of the top part of the case. I also left a rectangle open to display the micrcontroller. I decided to do that mainly because otherwise there wouldn't be anything there and it would look plain in that spot and also because I think the micrcontroller looks cool displayed like that. I also chamfered the edges and filleted the inner part of the rectangle I made to display the micrcontroller. Here's what the top case ended up looking like: 
+
+<img width="844" alt="Screenshot 2025-06-22 at 10 47 27 PM" src="https://github.com/user-attachments/assets/7d73d937-c2f2-4826-80ed-607d589bedcc" />
+
+When putting it in the main assembly I also wanted to make the spot for the port look better than just a rectangle. I wanted it to be smaller around the port so I started on the bottom part of the case to make the opening look better. I made it a smaller opening and I also filleted the edges, then I did the same with the plate and also for the top part of the case I added a fillet aligned with the fillet from the other parts. Heres what it ended up looking like:
+
+<img width="490" alt="Screenshot 2025-06-22 at 10 58 18 PM" src="https://github.com/user-attachments/assets/d31713ea-094c-4653-a19e-a6a41f6091b8" />
+
+Now I finished the assembly and heres what it looked like:
+
+<img width="1052" alt="Screenshot 2025-06-22 at 11 06 28 PM" src="https://github.com/user-attachments/assets/83b99e8b-662a-4d37-b62d-9aea4522f3d2" />
+
+Also I got made sure the screws fit and everything. The screw doesn't go through the top part of the case but it goes through most of it and I think it will be enough to hold it all together. Heres a section view of how the screws fit into the spot I left for them:
+
+<img width="250" alt="Screenshot 2025-06-22 at 7 26 55 PM" src="https://github.com/user-attachments/assets/1ade6766-0a86-4972-a0e6-e66aa72e370e" />
+
+I also made an exploded view:
+
+<img width="671" alt="Screenshot 2025-06-22 at 11 04 46 PM" src="https://github.com/user-attachments/assets/82073703-8058-41ab-a3f8-a4b2d4fa0a2a" />
+
+Now I needed to start the firmware. I decided to use KMK since I know python and I also used it for my hackpad. Although it wasn't easy to figure out how to program the key matrix since I'd never used one before but it wasn't to hard to figure it out. Now I had to program each key and I haven't finished so I'll finish tomorrow but its been taking a while especially since some of the custom keys I added use macros like the brackets so that I could put both brackets then put the cursor between them.
+
+**Total time spent: about 6h**
