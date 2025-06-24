@@ -1,5 +1,5 @@
 # CodeBoard
-A keyboard specially made for coding with quicker access to common characters. After making [CodePad](https://github.com/Alfonsoce11/CodePad/) I figured the next logical thing to do is to make is a full keyboard for coding.
+A keyboard specially made for coding with quicker access to common characters. After making [CodePad](https://github.com/Alfonsoce11/CodePad/) I figured the next logical thing to do was to make a full keyboard for coding.
 | Assembly | Exploded View |
 |--|--|
 | <img width="1052" alt="Screenshot 2025-06-22 at 11 06 28 PM" src="https://github.com/user-attachments/assets/e180ff10-646c-4f24-9550-54ef050824ac" /> | <img width="1052" alt="CodeBoardExplodedView" src="https://github.com/user-attachments/assets/2d4904d9-6531-40b6-b854-be5eabb84169" /> |
@@ -8,7 +8,9 @@ A keyboard specially made for coding with quicker access to common characters. A
 
 <img width="1072" alt="Screenshot 2025-06-23 at 12 59 59 PM" src="https://github.com/user-attachments/assets/3846e80c-ba70-4fe1-85f1-d04fca5d3768" />
 
-I chose this layout so that I could keep the normal keyboard layout while also optimizing for coding. It has keys I often use while coding to the right of the main part of the keyboard, similar to a numpad but for coding. 
+I chose this layout so that I could keep the normal keyboard layout while also optimizing for coding. It has keys I often use while coding to the right of the main part of the keyboard, similar to a numpad but for coding. The brackets and quotes type both characters and put the curser between the characters. The angle brackets don't because they are more commonly used for conditions rather than brackets in coding.
+
+I wrote the firmware using KMK.
 
 # Case
 
@@ -22,6 +24,19 @@ Heres an assembly of the case:
 <img width="939" alt="Screenshot 2025-06-23 at 6 47 26 PM" src="https://github.com/user-attachments/assets/810988e0-47c6-429b-af82-924dfd44c656" />
 
 I made the case using OnShape.
+
+# PCB
+
+**Schematic:**
+<img width="1044" alt="Screenshot 2025-06-19 at 7 51 42 PM" src="https://github.com/user-attachments/assets/db62a518-5677-482d-9972-d23a5db40601" />
+
+**PCB:**
+<img width="1044" alt="Screenshot 2025-06-20 at 8 38 24 PM" src="https://github.com/user-attachments/assets/48f9b6e8-92a4-4067-8fa1-d8560f4a08ec" /> 
+
+**3D PCB:**
+<img width="1044" alt="Screenshot 2025-06-20 at 8 38 59 PM" src="https://github.com/user-attachments/assets/35cd8f4d-5bf5-4d3d-99f0-5d8642f4be2f" />
+
+I made the PCB on KiCAD and learned how to create a key matrix.
 
 # BOM
 |Item                           |Quantity|Price |Link                                                                                                                                                                                                                                                           |
