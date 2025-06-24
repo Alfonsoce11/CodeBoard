@@ -5,6 +5,8 @@ description: "A keyboard specially made for coding with quicker access to common
 created_at: "2024-06-18"
 ---
 
+**Total Time Spent: about 28h**
+
 # June 19th: Decided on the layout and created the schematic.
 I wanted it to have a good layout because once I start making it I wouldn't be able to change the layout without restarting completely so I ended up spending like more 2 hours deciding on the layout. 
 
@@ -123,3 +125,5 @@ I started looking for the parts I needed. It took a while to find everything. I 
 Then I uploaded everything to github and organized it in a good way. I put the complete CAD model in CAD and the firmware python file in Firmware, pcb files from kicad in PCB and everything needed to make it (top case, plate, bottom case, gerbers, and firmware) in the Production folder. I organized it the same way I did for my hackpad. I also made the BOM in csv format and in the bottom of my README.
 
 Now I'm gonna submit it. If it gets approved I'm 99% sure I'll go to undercity since I'm close enough to drive.
+
+**Total time spent: about 4h**
