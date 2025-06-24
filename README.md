@@ -38,6 +38,12 @@ I made the case using OnShape.
 
 I made the PCB on KiCAD and learned how to create a key matrix.
 
+# More Views
+
+<img width="1028" alt="Screenshot 2025-06-23 at 8 33 21 PM" src="https://github.com/user-attachments/assets/c7ed6278-6524-46c4-92de-1fb781a5e4c4" />
+
+<img width="1035" alt="Screenshot 2025-06-23 at 8 36 05 PM" src="https://github.com/user-attachments/assets/87195dd6-9c75-44e3-b9e9-54d184c0d048" />
+
 # BOM
 |Item                           |Quantity|Price |Link                                                                                                                                                                                                                                                           |
 |-------------------------------|--------|------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
