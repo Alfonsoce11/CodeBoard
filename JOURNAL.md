@@ -113,3 +113,13 @@ I also made an exploded view:
 Now I needed to start the firmware. I decided to use KMK since I know python and I also used it for my hackpad. Although it wasn't easy to figure out how to program the key matrix since I'd never used one before but it wasn't to hard to figure it out. Now I had to program each key and I haven't finished so I'll finish tomorrow but its been taking a while especially since some of the custom keys I added use macros like the brackets so that I could put both brackets then put the cursor between them.
 
 **Total time spent: about 6h**
+
+# June 23rd: Finished Firmware, found parts, and uploaded everything to github
+
+I already finished most of the firmware so it didn't take me very long to finish it. I just needed to finish the keymap. After that I just need to find all the parts, upload everything to github and update the README and create the BOM.
+
+I started looking for the parts I needed. It took a while to find everything. I managed to find most things on aliexpress. The only parts I didn't get from aliexpress were the raspberry pi pico and obviously the pcb. After adding everything up the total ending up being $81.47
+
+Then I uploaded everything to github and organized it in a good way. I put the complete CAD model in CAD and the firmware python file in Firmware, pcb files from kicad in PCB and everything needed to make it (top case, plate, bottom case, gerbers, and firmware) in the Production folder. I organized it the same way I did for my hackpad. I also made the BOM in csv format and in the bottom of my README.
+
+Now I'm gonna submit it. If it gets approved I'm 99% sure I'll go to undercity since I'm close enough to drive.
