@@ -28,13 +28,13 @@ I made the case using OnShape.
 # PCB
 
 **Schematic:**
-<img width="1044" alt="Screenshot 2025-06-19 at 7 51 42 PM" src="https://github.com/user-attachments/assets/db62a518-5677-482d-9972-d23a5db40601" />
+<img width="751" alt="Screenshot 2025-06-29 at 9 05 20 AM" src="https://github.com/user-attachments/assets/78449721-9654-4d1b-b0ae-afdc10271b33" />
 
 **PCB:**
-<img width="1044" alt="Screenshot 2025-06-20 at 8 38 24 PM" src="https://github.com/user-attachments/assets/48f9b6e8-92a4-4067-8fa1-d8560f4a08ec" /> 
+<img width="1095" alt="Screenshot 2025-06-29 at 9 06 19 AM" src="https://github.com/user-attachments/assets/b43d83b0-7c97-41d2-b02a-9fbc4815364b" />
 
 **3D PCB:**
-<img width="1044" alt="Screenshot 2025-06-20 at 8 38 59 PM" src="https://github.com/user-attachments/assets/35cd8f4d-5bf5-4d3d-99f0-5d8642f4be2f" />
+<img width="1063" alt="Screenshot 2025-06-29 at 9 07 33 AM" src="https://github.com/user-attachments/assets/66dd67e3-fe54-4b6a-ba12-95f35e8a4f47" />
 
 I made the PCB on KiCAD and learned how to create a key matrix.
 
